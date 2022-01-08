@@ -1,0 +1,96 @@
+body{
+    margin:0%;
+    padding: 0%;
+    background: linear-gradient(to right, rgb(197, 186, 186),rgb(212, 207, 207));
+}
+.container{
+    text-align: center;
+}
+h1{
+    font-size: 6.5em;
+    margin: 1% 0% -4% 0%;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    -webkit-text-stroke:2px black;
+    color: rgb(12, 13, 14);
+
+}
+#topRow{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-end;
+
+}
+
+
+#player{
+
+}
+
+#player img{
+    height: 200px;
+    margin-top:160px;
+}
+
+#pc{
+    
+}
+
+#pc img{
+    height: 200px;
+    margin-top: 200px;
+}
+
+.chars{
+    margin: 20px;
+}
+
+#bottomRow{
+    padding: 20px;
+    font-size:20pt arial ;
+    text-align: center;
+}
+
+.stats{
+    width: 200px;
+    margin-top: 100px;
+    height: 200px;
+    visibility: hidden;
+}
+
+.healthLabel{
+    font: 16pt Arial;
+    font-weight: bold;
+    margin-left: -150px;
+    padding-top: 40px;
+    
+}
+.buttonstyle{
+    background-color: white;
+    border: 3px solid;
+    border-color: black;
+    font: 20pt Arial;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+
+}
+
+.buttonstyle:hover{
+    background-color: black;
+    color: white;
+}
+
+.hpBorder{
+    width: 200px;
+    height: 15px;
+    border: 3px solid;
+    border-color: black;
+
+}
+
+.hpBar{
+    width: 200px;
+    height:15px;
+    background-color: red;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FightingGame</title>
+    <link rel="stylesheet" href="istyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+    <div class="container ">
+    <h1>Fighting Game</h1>
+        <div id="topRow">
+            <div id="playerStats" class="stats">
+                <span class="healthLabel">HEALTH<span><br>
+                    <div class="hpBorder">
+                        <div id="playerHP" class="hpBar"></div>
+                    </div>
+                    <p id="playerMoves">
+                        <span class="healthLabel">Choose<span><br>
+                        <button onclick="attack()" class="buttonstyle">Attack</button><br>
+                        <button onclick="specialAttack()" class="buttonstyle">Special_Attack</button>
+
+                    </p>
+            </div>
+            <div id="player" class="chars">
+                <img src="player1.gif" >
+            </div>
+            <div id="pc" class="chars">
+                <img src="player2.gif">
+            </div>
+            <div id="PCstats" class="stats">
+                <span class="healthLabel">HEALTH<span><br>
+                    <div class="hpBorder">
+                        <div id="pcHP" class="hpBar"></div>
+                    </div>
+            </div>
+        </div>
+        <div id="bottomRow">
+          <h2>Welcome to the Battle Arena! </h2><br>
+          <button onclick="startfight()" class="buttonstyle">START</button>
+        </div>
+    </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
